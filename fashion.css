@@ -1,0 +1,294 @@
+
+body{
+    margin: 0;
+    background-image: url(media/clothes-6019690.jpg );
+    background-repeat: no-repeat;
+    background-size: 1540px 750px ;
+    
+}
+
+
+
+.navbar{
+    border:1px solid black;
+    box-shadow: 0px 0px 10px black;
+    width: 99.9%;
+    height: 75px;
+    background-color: white;
+    opacity: 75%;
+
+    
+}
+
+h1 {
+
+   margin-left: 8vw;
+   font-size: 1.9rem;
+   font-family: 'Cinzel Decorative', cursive
+}
+
+ul{
+     
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+li{
+    list-style: none;
+    margin-left:80px;
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    font-weight: 10px;
+    
+}
+
+input[type=search]{
+    margin-right: 2vw;
+    float: right;
+    margin-top: -1vh;
+    border-radius: 5px ;
+    box-shadow: inset 0px 0px 2px black;
+}
+
+.login{
+
+    border: 2px solid transparent;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    opacity: 70%;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+
+
+input[type=text]{
+    width: 240px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type=Password]{
+    width: 240px;
+    height: 25px;
+    border:none;
+    border-bottom: 2px solid black;
+
+}
+
+input[type=text]:focus{
+    outline: none;
+    
+    
+}
+
+input[type=Password]:focus{
+    outline: none;
+    
+    
+}
+
+p{
+    text-align: center;
+    color: #e9d1b5;
+    font-size: 60px;
+    margin-top: 10px;
+    text-shadow:  0px 0px 10px black;
+    animation: offer 10s infinite;
+
+}
+
+@keyframes offer {
+
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes am {
+
+    100%{
+        width: 100%;
+    }
+    0%{
+        width: 0%;
+    }
+}
+
+
+/* singup webpage */
+
+#SignUp {
+
+    border: 2px solid transparent;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    /* margin-top: 200px; */
+    border-radius: 20px;
+    opacity: 70%;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 150px;
+
+
+}
+
+
+.SignUp h1 {
+    margin-left: 120px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+input[type=text] {
+    width: 240px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type=Password] {
+    width: 240px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+
+input[type=text]:focus {
+    outline: none;
+
+
+}
+
+input[type=Password]:focus {
+    outline: none;
+
+
+}
+
+.fa-brands {
+    width: 50px;
+    height: 50px;
+
+}
+.two a{
+    border: 1px solid black;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin-left: 180px;
+    border-radius: 7px;
+    box-shadow:inset  0px 0px 5px;
+    
+    
+}
+
+#bg{
+    background-color: #bf985d;
+    /* background-image: url(media/alexander-kovacs-y12X8AYtsbc-unsplash.jpg); */
+    background-size: cover;
+    height: 570px;
+    padding-top: 150px;margin-top: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: -20px;
+    outline:inset #FFD93D;
+}
+
+.fashi{
+    background-image: url(media/white.jpg);
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    outline:outset #FFD93D;
+}
+
+td{
+    text-align: center;
+    font-size: 30px;
+    background-color:white;
+    opacity: 95%;
+    border-collapse: collapse;
+}
+
+td a:hover{
+    /* color:rgb(254, 0, 216); */
+    text-decoration-line:underline ;
+}
+
+th{
+    font-size: 40px ;
+    background-color: #FFD93D;
+}
+
+td a{
+    text-decoration: none;
+    color:black;
+    text-shadow: 0px 0px 1px black;
+}
+
+
+table{
+
+    border: none;
+    box-shadow: 0px 0px 10px black;
+}
+
+th ,td {
+
+    border: none;
+    padding: 10px;
+    box-shadow:  0px 0px 10px black;
+}
+
+.main{
+    min-width: 360px;
+
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    border: 2px solid black;
+    outline:inset  yellow;
+}
+.f1{
+    border: 2px solid transparent;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.f3 ul {
+    color: white;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+
+.f4{
+    float: right;
+    margin-top: -100px;
+    margin-right:100px;
+}
+
+.f5{
+    margin-left: 165px;
+    margin-top: 25px;
+}
+
+.f3 ul li:hover{
+    text-decoration-line: underline ;
+    color: yellow;
+}

@@ -1,0 +1,83 @@
+.navbar {
+    border: .1rem solid black;
+    max-width: 100%;
+    max-height: ;
+    background-color: cadetblue;
+    min-width: 1000px;
+    display: flex;
+
+}
+
+.navbar img {
+    width: 8vw;
+    height: 10vh;
+    ;
+}
+
+li {
+    list-style: none;
+    margin-left: 9vw;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 3vh;
+
+}
+
+/* styles for screens smaller than 600 pixels wide */
+@media screen and (max-width: 400px) {
+
+    /* your styles go here */
+    body {
+        background-color: #B0DAFF;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:600px) {
+
+    /* your styles go here */
+    body {
+        background-color: #BBD6B8;
+     }
+     .navbar{
+        background-color: #FF8E9E;
+     }
+}
+
+@media screen and (min-width: 600px)  and (max-width:800px) {
+
+    /* your styles go here */
+    body {
+        background-color: #FFACAC;
+    }
+}
+
+@media screen and (min-width: 800px)  and (max-width:1000px) {
+
+    /* your styles go here */
+    body {
+        background-color:#FFA3FD;
+    }
+}
+@media screen and (min-width: 1000px)  and (max-width:1496px) {
+
+    /* your styles go here */
+    body {
+        background-color:#FDA769;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
